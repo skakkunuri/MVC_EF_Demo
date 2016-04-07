@@ -1,0 +1,27 @@
+﻿@using EmployeeBL.EF;
+@using MVC_EF_Demo.Models
+@model Viewmodel
+
+@{
+    ViewBag.Title = "GetAllEplmoyees";
+}
+
+<h2>GetAllEplmoyees</h2>
+<ul>
+    @foreach (Employee emp in @Model.Employees)
+    {
+        <li>
+            @emp.EmpName
+        </li>
+
+    }
+    <h2>Get All Departments</h2>
+    @foreach (Department dep in @Model.Departments)
+    {
+        <li>
+            @dep.DepName
+        </li>
+
+    }
+
+</ul>
