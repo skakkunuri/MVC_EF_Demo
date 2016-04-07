@@ -16,7 +16,7 @@ namespace MVC_EF_Demo.Controllers
             Viewmodel vm = new Viewmodel();
             vm.Employees = GetAllEmployees();
             vm.Departments = GetAllDepartments();  
-            return View(vm);
+            return View(vm); // just added a comment
         }
 
 
