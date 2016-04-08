@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_EF_Demo", "MVC_EF_Demo\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EmployeeBL", "EmployeeBL\EmployeeBL.csproj", "{537FB410-BC19-4F74-808D-48235B8F8384}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JQuery_AutoFill_Demo", "JQuery_AutoFill_Demo\JQuery_AutoFill_Demo.csproj", "{1D4AC1E9-757C-4CCA-86BE-FFC95C8168F5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{537FB410-BC19-4F74-808D-48235B8F8384}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{537FB410-BC19-4F74-808D-48235B8F8384}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{537FB410-BC19-4F74-808D-48235B8F8384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D4AC1E9-757C-4CCA-86BE-FFC95C8168F5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D4AC1E9-757C-4CCA-86BE-FFC95C8168F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D4AC1E9-757C-4CCA-86BE-FFC95C8168F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D4AC1E9-757C-4CCA-86BE-FFC95C8168F5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
